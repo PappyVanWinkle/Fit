@@ -1,0 +1,41 @@
+
+**** Build of configuration Debug for project fitgood ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../sample/fit_demo.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.7/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Users/Gemalto/Desktop/fitgood-old/inc" --include_path="C:/Users/Gemalto/Desktop/fitgood-old/mbedtls-2.2.1/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.7/include" --include_path="C:/ti/TivaWare_C_Series-2.1.2.111" -g --gcc --define=ccs="ccs" --define=DEBUG --define=UART_BUFFERED --define=FIT_DEBUG_MSG --define=FIT_USE_NODE_LOCKING --define=FIT_USE_CLOCK --define=FIT_USE_E2 --define=TARGET_IS_TM4C129_RA0 --define=PART_TM4C1292NCPDT --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="sample/fit_demo.pp" --obj_directory="sample"  "../sample/fit_demo.c"
+'Finished building: ../sample/fit_demo.c'
+' '
+'Building target: fitgood.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.7/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -g --gcc --define=ccs="ccs" --define=DEBUG --define=UART_BUFFERED --define=FIT_DEBUG_MSG --define=FIT_USE_NODE_LOCKING --define=FIT_USE_CLOCK --define=FIT_USE_E2 --define=TARGET_IS_TM4C129_RA0 --define=PART_TM4C1292NCPDT --diag_wrap=off --display_error_number --diag_warning=225 -z -m"fitgood.map" --heap_size=16384 --stack_size=16384 -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.7/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.7/include" --reread_libs --display_error_number --diag_wrap=off --warn_sections --xml_link_info="fitgood_linkInfo.xml" --rom_model -o "fitgood.out" "./src/abreast_dm.obj" "./src/consume.obj" "./src/dm_hash.obj" "./src/fit_aes.obj" "./src/fit_debug.obj" "./src/fit_rsa.obj" "./src/fit_version.obj" "./src/get_info.obj" "./src/internal.obj" "./src/mem_read.obj" "./src/node_locking.obj" "./src/parser.obj" "./src/validate.obj" "./sample/demo_getinfo.obj" "./sample/fit_demo.obj" "./mbedtls-2.2.1/library/asn1parse.obj" "./mbedtls-2.2.1/library/base64.obj" "./mbedtls-2.2.1/library/bignum.obj" "./mbedtls-2.2.1/library/md.obj" "./mbedtls-2.2.1/library/md5.obj" "./mbedtls-2.2.1/library/md_wrap.obj" "./mbedtls-2.2.1/library/oid.obj" "./mbedtls-2.2.1/library/pem.obj" "./mbedtls-2.2.1/library/pk.obj" "./mbedtls-2.2.1/library/pk_wrap.obj" "./mbedtls-2.2.1/library/pkparse.obj" "./mbedtls-2.2.1/library/rsa.obj" "./mbedtls-2.2.1/library/sha256.obj" "./hwdep/tm4c1294xl/board_setup.obj" "./hwdep/tm4c1294xl/delay.obj" "./hwdep/tm4c1294xl/eeprom_mem.obj" "./hwdep/tm4c1294xl/fingerprint.obj" "./hwdep/tm4c1294xl/flash_mem.obj" "./hwdep/tm4c1294xl/get_time.obj" "./hwdep/tm4c1294xl/led.obj" "./hwdep/tm4c1294xl/memory.obj" "./hwdep/tm4c1294xl/startup_ccs.obj" "./hwdep/tm4c1294xl/uart.obj" "./hwdep/tm4c1294xl/uartstdio.obj" "../hwdep/tm4c1294xl/fit_sample_ccs.cmd"  -l"libc.a" -l"C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\ccs\Debug\driverlib.lib" 
+<Linking>
+'Finished building target: fitgood.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fitgood ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project fitgood ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../sample/fit_demo.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.7/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Users/Gemalto/Desktop/fitgood-old/inc" --include_path="C:/Users/Gemalto/Desktop/fitgood-old/mbedtls-2.2.1/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.7/include" --include_path="C:/ti/TivaWare_C_Series-2.1.2.111" -g --gcc --define=ccs="ccs" --define=DEBUG --define=UART_BUFFERED --define=FIT_DEBUG_MSG --define=FIT_USE_NODE_LOCKING --define=FIT_USE_CLOCK --define=FIT_USE_E2 --define=TARGET_IS_TM4C129_RA0 --define=PART_TM4C1292NCPDT --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="sample/fit_demo.pp" --obj_directory="sample"  "../sample/fit_demo.c"
+'Finished building: ../sample/fit_demo.c'
+' '
+'Building target: fitgood.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.7/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -g --gcc --define=ccs="ccs" --define=DEBUG --define=UART_BUFFERED --define=FIT_DEBUG_MSG --define=FIT_USE_NODE_LOCKING --define=FIT_USE_CLOCK --define=FIT_USE_E2 --define=TARGET_IS_TM4C129_RA0 --define=PART_TM4C1292NCPDT --diag_wrap=off --display_error_number --diag_warning=225 -z -m"fitgood.map" --heap_size=16384 --stack_size=16384 -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.7/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.7/include" --reread_libs --display_error_number --diag_wrap=off --warn_sections --xml_link_info="fitgood_linkInfo.xml" --rom_model -o "fitgood.out" "./src/abreast_dm.obj" "./src/consume.obj" "./src/dm_hash.obj" "./src/fit_aes.obj" "./src/fit_debug.obj" "./src/fit_rsa.obj" "./src/fit_version.obj" "./src/get_info.obj" "./src/internal.obj" "./src/mem_read.obj" "./src/node_locking.obj" "./src/parser.obj" "./src/validate.obj" "./sample/demo_getinfo.obj" "./sample/fit_demo.obj" "./mbedtls-2.2.1/library/asn1parse.obj" "./mbedtls-2.2.1/library/base64.obj" "./mbedtls-2.2.1/library/bignum.obj" "./mbedtls-2.2.1/library/md.obj" "./mbedtls-2.2.1/library/md5.obj" "./mbedtls-2.2.1/library/md_wrap.obj" "./mbedtls-2.2.1/library/oid.obj" "./mbedtls-2.2.1/library/pem.obj" "./mbedtls-2.2.1/library/pk.obj" "./mbedtls-2.2.1/library/pk_wrap.obj" "./mbedtls-2.2.1/library/pkparse.obj" "./mbedtls-2.2.1/library/rsa.obj" "./mbedtls-2.2.1/library/sha256.obj" "./hwdep/tm4c1294xl/board_setup.obj" "./hwdep/tm4c1294xl/delay.obj" "./hwdep/tm4c1294xl/eeprom_mem.obj" "./hwdep/tm4c1294xl/fingerprint.obj" "./hwdep/tm4c1294xl/flash_mem.obj" "./hwdep/tm4c1294xl/get_time.obj" "./hwdep/tm4c1294xl/led.obj" "./hwdep/tm4c1294xl/memory.obj" "./hwdep/tm4c1294xl/startup_ccs.obj" "./hwdep/tm4c1294xl/uart.obj" "./hwdep/tm4c1294xl/uartstdio.obj" "../hwdep/tm4c1294xl/fit_sample_ccs.cmd"  -l"libc.a" -l"C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\ccs\Debug\driverlib.lib" 
+<Linking>
+'Finished building target: fitgood.out'
+' '
+
+**** Build Finished ****

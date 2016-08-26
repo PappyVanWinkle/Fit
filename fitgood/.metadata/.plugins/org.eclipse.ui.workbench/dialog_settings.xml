@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="1440" key="dialogWidth"/>
+		<item value="789" key="dialogHeight"/>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="textEntries">
+		</list>
+	</section>
+	<section name="MemoryDumperSaveAction">
+		<item value="true" key="MemoryDumperMemoryBlockPage.STORE_SPECIFY_DATA_BLOCK_SIZE_ID"/>
+		<item value="0x20008a54" key="MemoryDumperMemoryBlockPage.STORE_ADDRESS_EXPRESSION_ID"/>
+		<item value="" key="MemoryDumperMemoryBlockPage.STORE_COLUMN_COUNT_ID"/>
+		<item value="" key="MemoryDumperMemoryBlockPage.STORE_ROW_COUNT_ID"/>
+		<item value="false" key="MemoryDumperMemoryBlockPage.STORE_SPECIFY_DATA_DIMENSION_SIZE_ID"/>
+		<item value="8" key="MemoryDumperMemoryBlockPage.STORE_TYPE_SIZE_VALUE_ID"/>
+		<item value="" key="MemoryDumperMemoryBlockPage.STORE_PAGE_ID"/>
+		<item value="386" key="MemoryDumperMemoryBlockPage.STORE_SIZE_ID"/>
+		<item value="0" key="MemoryDumperMemoryBlockPage.STORE_TYPE_SIZE_ID"/>
+		<item value="false" key="MemoryDumperMemoryBlockPage.STORE_APPEND_ID"/>
+		<item value="false" key="MemoryDumperFileSelectionPage.STORE_USE_FILE_HEADER"/>
+		<item value="TI Data" key="MemoryDumperFileSelectionPage.STORE_FILETYPE_ID"/>
+		<item value="false" key="MemoryDumperMemoryBlockPage.STORE_SWAP_ID"/>
+		<item value="0" key="MemoryDumperMemoryBlockPage.STORE_FILE_FORMAT_NAME_ID"/>
+		<item value="C:\Users\Gemalto\Desktop\fit_demo.dat" key="MemoryDumperFileSelectionPage.STORE_FILE_PATH_ID"/>
+		<item value="32-Bit Hex - TI Style" key="MemoryDumperMemoryBlockPage.STORE_FILE_FORMAT_TYPE_ID"/>
+		<list key="MemoryDumperMemoryBlockPage.STORE_SIZE_VALUE_ID">
+			<item value="182"/>
+		</list>
+		<list key="MemoryDumperMemoryBlockPage.STORE_ADDRESS_VALUE_ID">
+			<item value="20008a54"/>
+		</list>
+	</section>
+</section>

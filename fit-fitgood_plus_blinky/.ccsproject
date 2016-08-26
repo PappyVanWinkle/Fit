@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<deviceVariant value="Cortex M.TM4C1292NCPDT"/>
+	<deviceFamily value="TMS470"/>
+	<deviceEndianness value="little"/>
+	<codegenToolVersion value="5.2.7"/>
+	<isElfFormat value="true"/>
+	<linkerCommandFile value="tm4c1292ncpdt.cmd"/>
+	<rts value="libc.a"/>
+	<createSlaveProjects value=""/>
+	<templateProperties value="id=com.ti.common.project.core.emptyProjectTemplate,"/>
+	<isTargetManual value="true"/>
+	<origin value="C:/Users/Gemalto/Desktop/TEMP/YET ANOTHER TEMP/fit-fitgood_plus_blinky"/>
+</projectOptions>
