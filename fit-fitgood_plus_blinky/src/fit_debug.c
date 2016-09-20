@@ -14,7 +14,7 @@
 #include "fit_debug.h"
 #include "hwdep.h"
 
-uint16_t fit_trace_flags = FIT_TRACE_ALL;
+uint16_t fit_trace_flags = 0;
 
 void fit_putc(char c)
 {
